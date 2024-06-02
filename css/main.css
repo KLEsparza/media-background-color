@@ -58,9 +58,13 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   header {
     background-color: white;
+  }
+
+  .col-3{
+    width: 50%;
   }
 
   #column-1 {
@@ -73,19 +77,24 @@ footer {
 
   #column-3 {
     background-color: rgb(204, 85, 105);
+    width: 100%;
   }
 
   footer {
     background-color: rgb(214, 212, 212);
   }
-  
+
 }
 
 
-/*---------- Desktops ----------*/
+  /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
     background-color: white;
+  }
+  
+  .col-3{
+    width: 33.33%;
   }
 
   #column-1 {
